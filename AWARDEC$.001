@@ -1,0 +1,17 @@
+(* nicht editieren! *)
+procedure sprach_modul;assembler;(*&FRAME-*) (*&USES NONE*) (*$S-*)
+  asm
+    db   7,'<SPRA2>'
+    db   4,'ENDE'
+    dw   4
+    db  55,'usage: AWARDECO <flash rom file> [ <traget directory> ]'
+    db  60,'Benutzung: AWARDECO <BIOS-Abbilddatei> [ <Zielverzeichnis> ]'
+    db  21,'The file ist to big !'
+    db  23,'Die Datei ist zu groá !'
+    db  70,'Position packed   C     target    type               unpacked'
+    db     ' filename'
+    db  71,'Position gepackt  K.    Ziel      Typ                entpackt'
+    db     ' Dateiname'
+    db  28,'Error during decompression !'
+    db  23,'Fehler beim Entpacken !'
+  end;

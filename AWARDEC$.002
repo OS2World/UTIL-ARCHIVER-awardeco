@@ -1,0 +1,7 @@
+(* nicht editieren! *)
+var
+  sprach_start:longint;
+  textz_hilfe  :^string;
+  textz_datei_ist_zu_gross  :^string;
+  textz_kopfzeile  :^string;
+  textz_entpackfehler  :^string;
